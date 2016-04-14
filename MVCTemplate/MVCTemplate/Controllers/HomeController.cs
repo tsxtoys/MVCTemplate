@@ -10,6 +10,7 @@ namespace MVCTemplate.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "whatever string you want";
             return View();
         }
 
